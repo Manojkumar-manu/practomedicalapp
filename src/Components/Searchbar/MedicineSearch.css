@@ -1,0 +1,72 @@
+.MedicineSearch {
+  width: 95%;
+  margin: auto;
+  margin-left: 3%;
+  display: flex;
+  position: sticky;
+  height: 50px;
+  margin-top: 1%;
+  background-color: #ffffff;
+   margin-bottom: 2%;
+}
+
+.MedicineSearchInput {
+  background-color: #ffffff;
+  width: 76%;
+  display: inline-block;
+  min-height: 1px;
+  box-sizing: border-box;
+  top: 0;
+  z-index: 2;
+  box-shadow: 0 2px 4px 0 rgb(0 0 0 / 8%);
+  border-top: 1px solid #f0f0f5;
+  position: relative;
+  display: flex;
+ 
+}
+
+
+.MedicineSearchInput > input {
+  width: 100%;
+  padding-left: 40px !important;
+}
+
+.MedicineSearchCart {
+  margin-left: 10%;
+  width: 100%;
+  height: 500px;
+  /* display: flex; */
+}
+
+.MedicineSearchCart > button {
+  display: flex;
+  color: #fff;
+  background: #14bef0;
+  cursor: pointer;
+  width: 130%;
+  height: 9%;
+  line-height: 1.4;
+  border-radius: 2px;
+  border-image: initial;
+  border: 1px solid transparent;
+  font-size: large;
+  text-align: center;
+  padding-top: 5%;
+  padding: 5%;
+  margin-top: 5%;
+  /* text-align: end; */
+  /* padding-left: -20%; */
+}
+.MedicineSearchCart > button > div {
+  /* border: 2px solid red; */
+  padding-right: 10%;
+  margin-top: -2%;
+  font-size: 25px;
+}
+.MedicineSearchCart > button > span {
+  /* border: 2px solid peru; */
+  text-align: center;
+  font-weight: bolder;
+  font-size: larger;
+  margin-top: -1%;
+}
